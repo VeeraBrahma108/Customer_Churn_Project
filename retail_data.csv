@@ -23,3 +23,12 @@ df.to_csv(out_path, index=False)
 print("Saved synthetic file to:", out_path)
 print("First 5 rows:")
 print(df.head())
+
+
+   customer_id  purchase_frequency  spending  engagement  last_purchase_days
+0            1                   3    713.20          44                 382
+1            2                  23    531.41          94                 207
+2            3                  19    468.27          16                   2
+3            4                  13    292.87          15                  74
+4            5                  13    165.06          46                 178
+
